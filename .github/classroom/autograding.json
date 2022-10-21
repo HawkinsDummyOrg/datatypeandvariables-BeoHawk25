@@ -1,14 +1,14 @@
 {
   "tests": [
     {
-      "name": "test",
+      "name": "String Tests",
       "setup": "",
-      "run": "dotnet test",
+      "run": "DOTNET_CLI_HOME=/tmp/ dotnet test",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 2,
-      "points": 1
+      "points": 6
     }
   ]
 }
